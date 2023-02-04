@@ -7,9 +7,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/card' element={<Home/>}></Route>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/cards/:id' element={<Home/>}></Route>
+      <Route path='/card' element={<Home/>} exact></Route>
+      <Route path='/home' element={<Home/>} exact></Route>
+      <Route path='/cards/:id' element={<Home/>} exact></Route>
     </Routes>
     <div className="App">
       <NavBar/>

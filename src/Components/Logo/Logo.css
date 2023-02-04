@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    transform: rotate(-2deg);
+}
+.logo-container p{
+    display: flex;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 3.5vw;
+    color:black;
+    font-weight: 700;
+}
