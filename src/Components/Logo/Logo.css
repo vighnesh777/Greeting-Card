@@ -6,6 +6,7 @@
     width: auto;
     height: 100%;
     transform: rotate(-2deg);
+    user-select: none;
 }
 .logo-container p{
     display: flex;
