@@ -1,0 +1,25 @@
+.carousel_plain_container {
+  width: 100vw;
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 25px;
+}
+
+.carousel_plain_text {
+  color: #ffffff;
+  mix-blend-mode: difference;
+  font-size: 800%;
+  /* text-overflow: hidden; */
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel_plain_text {
+    font-size: 1000%;
+  }
+}
